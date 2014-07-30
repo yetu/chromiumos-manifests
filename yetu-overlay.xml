@@ -3,11 +3,22 @@
 	<remote
 		name	= "origin"
 		fetch	= "ssh://git@bitbucket.org/yetu" />
+
+	<remote
+		name	= "yetu"
+		fetch	= "ssh://git@bitbucket.org/yetu" />
 	
 	<project
 		path	= "src/overlays/overlay-yetuamd64"
 		name	= "chromiumos-overlay-yetu-amd64.git"
 		remote	= "origin" />
+
+	<remove-project name="chromiumos/overlays/chromiumos-overlay" />
+	<project 
+		name	= "chromiumos-chromiumos-overlay.git"
+		path	= "src/third_party/chromiumos-overlay"
+		revision = "yetu-os"
+		remote	= "yetu" />
 </manifest>
 <!--
 	git@bitbucket.org:yetu/chromiumos-overlay-yetu-amd64.git
