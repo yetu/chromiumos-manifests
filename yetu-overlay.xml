@@ -17,7 +17,14 @@
 	<project 
 		name	= "chromiumos-chromiumos-overlay.git"
 		path	= "src/third_party/chromiumos-overlay"
-		revision = "yetu-os"
+		revision = "jdk"
+		remote	= "yetu" />
+
+	<remove-project name="chromiumos/overlays/portage-stable" />
+	<project
+		name	= "chromiumos-portage-stable.git"
+		path	= "src/third_party/portage-stable"
+		revision = "jdk7"
 		remote	= "yetu" />
 </manifest>
 <!--
