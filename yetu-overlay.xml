@@ -24,7 +24,7 @@
 	<project
 		name	= "chromiumos-portage-stable.git"
 		path	= "src/third_party/portage-stable"
-		revision = "jdk7"
+		revision = "openjdk7"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/platform2" />
