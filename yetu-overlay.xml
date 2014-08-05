@@ -26,6 +26,13 @@
 		path	= "src/third_party/portage-stable"
 		revision = "jdk7"
 		remote	= "yetu" />
+
+	<remove-project name="chromiumos/platform2" />
+	<project
+		name = "chromiumos-platform2.git"
+		path = "src/platform2"
+		revision = "jdk7"
+		remote = "yetu" />
 </manifest>
 <!--
 	git@bitbucket.org:yetu/chromiumos-overlay-yetu-amd64.git
