@@ -9,11 +9,6 @@
 		fetch	= "ssh://git@bitbucket.org/yetu" />
 	
 	<project
-		path	= "src/overlays/overlay-yetuamd64"
-		name	= "chromiumos-overlay-yetu-amd64.git"
-		remote	= "origin" />
-
-	<project
 		path	= "src/third-party/yetu-overlay"
 		name	= "chromiumos-yetu-overlay.git"
 		remote	= "yetu" />
