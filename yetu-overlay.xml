@@ -13,6 +13,11 @@
 		name	= "chromiumos-overlay-yetu-amd64.git"
 		remote	= "origin" />
 
+	<project
+		path	= "src/third-party/yetu-overlay"
+		name	= "chromiumos-yetu-overlay.git"
+		remote	= "yetu" />
+
 	<remove-project name="chromiumos/overlays/chromiumos-overlay" />
 	<project 
 		name	= "chromiumos-chromiumos-overlay.git"
@@ -32,6 +37,13 @@
 		name = "chromiumos-platform2.git"
 		path = "src/platform2"
 		revision = "jdk7"
+		remote = "yetu" />
+
+	<remove-project name="chromiumos/overlays/board-overlays" />
+	<project
+		name = "chromiumos-overlays.git"
+		path = "src/overlays"
+		revision = "ifa"
 		remote = "yetu" />
 </manifest>
 <!--
