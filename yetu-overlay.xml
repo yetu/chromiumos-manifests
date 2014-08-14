@@ -11,27 +11,28 @@
 	<project
 		path	= "src/third_party/yetu-overlay"
 		name	= "chromiumos-yetu-overlay.git"
+		revision = "master"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/overlays/chromiumos-overlay" />
 	<project 
 		name	= "chromiumos-chromiumos-overlay.git"
 		path	= "src/third_party/chromiumos-overlay"
-		revision = "jdk7"
+		revision = "cros-orig"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/overlays/portage-stable" />
 	<project
 		name	= "chromiumos-portage-stable.git"
 		path	= "src/third_party/portage-stable"
-		revision = "openjdk7"
-		remote	= "yetu" />
+		revision = "cros-orig"
+		remote	= "yetu" /> 
 
 	<remove-project name="chromiumos/platform2" />
 	<project
 		name = "chromiumos-platform2.git"
 		path = "src/platform2"
-		revision = "jdk7"
+		revision = "cros-orig"
 		remote = "yetu" />
 
 	<remove-project name="chromiumos/overlays/board-overlays" />
