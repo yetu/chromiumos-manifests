@@ -41,6 +41,13 @@
 		path = "src/overlays"
 		revision = "ifa"
 		remote = "yetu" />
+
+	<remove-project name="chromiumos/overlays/eclass-overlay" />
+	<project
+		name = "chromiumos-eclass-overlay.git"
+		path = "src/third_party/eclass-overlay"
+		revision = "smarthome"
+		remote = "yetu" />
 </manifest>
 <!--
 	git@bitbucket.org:yetu/chromiumos-overlay-yetu-amd64.git
