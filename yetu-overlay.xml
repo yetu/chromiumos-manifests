@@ -18,7 +18,7 @@
 	<project 
 		name	= "chromiumos-chromiumos-overlay.git"
 		path	= "src/third_party/chromiumos-overlay"
-		revision = "cros-orig"
+		revision = "cros-int"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/overlays/portage-stable" />
@@ -32,14 +32,14 @@
 	<project
 		name = "chromiumos-platform2.git"
 		path = "src/platform2"
-		revision = "cros-orig"
+		revision = "cros-int"
 		remote = "yetu" />
 
 	<remove-project name="chromiumos/overlays/board-overlays" />
 	<project
 		name = "chromiumos-overlays.git"
 		path = "src/overlays"
-		revision = "ifa"
+		revision = "pfla02"
 		remote = "yetu" />
 
 	<remove-project name="chromiumos/overlays/eclass-overlay" />
