@@ -7,6 +7,16 @@
 	<remote
 		name	= "yetu"
 		fetch	= "ssh://git@bitbucket.org/yetu" />
+
+	<remote
+		name	= "dereulenspiegel"
+		fetch	= "https://github.com/dereulenspiegel" />
+
+	<project
+		path	= "src/third_party/tableknife"
+		name	= "tableknife.git"
+		revision = "master"
+		remote	= "dereulenspiegel" />
 	
 	<project
 		path	= "src/third_party/yetu-overlay"
