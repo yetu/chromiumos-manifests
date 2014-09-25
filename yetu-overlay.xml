@@ -17,6 +17,12 @@
 		name	= "tableknife.git"
 		revision = "master"
 		remote	= "dereulenspiegel" />
+
+	<project
+		path	= "src/third_party/yetu-tools"
+		name 	= "chromium-yetu-tools.git"
+		revision = "master"
+		remote	= "yetu" />
 	
 	<project
 		path	= "src/third_party/yetu-overlay"
