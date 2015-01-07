@@ -37,25 +37,17 @@
 		revision = "cros-int"
 		remote	= "yetu" />
 
-	<!-- <remove-project name="chromiumos/overlays/portage-stable" />
-	<project
-		name	= "chromiumos-portage-stable.git"
-		path	= "src/third_party/portage-stable"
-		revision = "cros-orig"
-		remote	= "yetu" />
-
-	<remove-project name="chromiumos/platform2" />
-	<project
-		name = "chromiumos-platform2.git"
-		path = "src/platform2"
-		revision = "cros-int"
-		remote = "yetu" /> -->
-
 	<remove-project name="chromiumos/overlays/board-overlays" />
 	<project
 		name = "chromiumos-overlays.git"
 		path = "src/overlays"
 		revision = "pfla02"
+		remote = "yetu" />
+
+	<remove-project name="chromiumos/platform/crosutils" />
+	<project
+		name = "chromiumos-scripts.git"
+		path = "src/scripts"
 		remote = "yetu" />
 
 </manifest>
