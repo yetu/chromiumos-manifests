@@ -37,19 +37,19 @@
 		revision = "cros-int"
 		remote	= "yetu" />
 
-	<remove-project name="chromiumos/overlays/portage-stable" />
+	<!-- <remove-project name="chromiumos/overlays/portage-stable" />
 	<project
 		name	= "chromiumos-portage-stable.git"
 		path	= "src/third_party/portage-stable"
 		revision = "cros-orig"
-		remote	= "yetu" /> 
+		remote	= "yetu" />
 
 	<remove-project name="chromiumos/platform2" />
 	<project
 		name = "chromiumos-platform2.git"
 		path = "src/platform2"
 		revision = "cros-int"
-		remote = "yetu" />
+		remote = "yetu" /> -->
 
 	<remove-project name="chromiumos/overlays/board-overlays" />
 	<project
@@ -59,7 +59,3 @@
 		remote = "yetu" />
 
 </manifest>
-<!--
-	git@bitbucket.org:yetu/chromiumos-overlay-yetu-amd64.git
-	https://dereulenspiegel@bitbucket.org/yetu/chromiumos-overlay-yetu-amd64.git
--->
