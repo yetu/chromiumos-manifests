@@ -50,4 +50,10 @@
 		path = "src/scripts"
 		remote = "yetu" />
 
+	<remove-project name="chromiumos/platform2" />
+	<project
+		name = "chromiumos-platform2.git"
+		name = "src/platform2"
+		remote = "yetu" />
+
 </manifest>
