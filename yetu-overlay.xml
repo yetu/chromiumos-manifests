@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote
-		name	= "origin"
-		fetch	= "ssh://git@bitbucket.org/yetu" />
-
-	<remote
 		name	= "yetu"
 		fetch	= "ssh://git@bitbucket.org/yetu" />
 
@@ -27,21 +23,18 @@
 	<project
 		path	= "src/third_party/yetu-overlay"
 		name	= "chromiumos-yetu-overlay.git"
-		revision = "master"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/overlays/chromiumos-overlay" />
 	<project 
 		name	= "chromiumos-chromiumos-overlay.git"
 		path	= "src/third_party/chromiumos-overlay"
-		revision = "cros-int"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/overlays/board-overlays" />
 	<project
 		name = "chromiumos-overlays.git"
 		path = "src/overlays"
-		revision = "pfla02"
 		remote = "yetu" />
 
 	<remove-project name="chromiumos/platform/crosutils" />
@@ -53,7 +46,7 @@
 	<remove-project name="chromiumos/platform2" />
 	<project
 		name = "chromiumos-platform2.git"
-		name = "src/platform2"
+		path = "src/platform2"
 		remote = "yetu" />
 
 </manifest>
