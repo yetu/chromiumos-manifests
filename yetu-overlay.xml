@@ -49,4 +49,16 @@
 		path = "src/platform2"
 		remote = "yetu" />
 
+	<project
+		name = "chromiumos-setup-splash.git"
+		path = "src/yetu-internal/setup-splash"
+		remote = "yetu"
+		revision = "master" />
+
+	<project
+		name = "serial-zwave-updater.git"
+		path = "src/yetu-internal/zwave-updater"
+		remote = "yetu"
+		revision = "master" />
+
 </manifest>
