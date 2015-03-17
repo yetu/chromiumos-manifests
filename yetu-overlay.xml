@@ -56,7 +56,7 @@
 
 	<project
 		name = "chromiumos-setup-splash.git"
-		path = "src/third-party/yetu-internal/setup-splash"
+		path = "src/third_party/yetu-internal/chromiumos-setup-splash"
 		remote = "yetu"
 		revision = "master" />
 
