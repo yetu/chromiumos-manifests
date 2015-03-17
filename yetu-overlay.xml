@@ -23,35 +23,35 @@
 	<project
 		path	= "src/third_party/yetu-overlay"
 		name	= "chromiumos-yetu-overlay.git"
-		revision = "release-R39-6310.B-development"
+		revision = "release-R39-6310.B"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/overlays/chromiumos-overlay" />
 	<project 
 		name	= "chromiumos-chromiumos-overlay.git"
 		path	= "src/third_party/chromiumos-overlay"
-		revision = "release-R39-6310.B-development"
+		revision = "release-R39-6310.B"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/overlays/board-overlays" />
 	<project
 		name = "chromiumos-overlays.git"
 		path = "src/overlays"
-		revision = "release-R39-6310.B-development"
+		revision = "release-R39-6310.B"
 		remote = "yetu" />
 
 	<remove-project name="chromiumos/platform/crosutils" />
 	<project
 		name = "chromiumos-scripts.git"
 		path = "src/scripts"
-		revision = "release-R39-6310.B-development"
+		revision = "release-R39-6310.B"
 		remote = "yetu" />
 
 	<remove-project name="chromiumos/platform2" />
 	<project
 		name = "chromiumos-platform2.git"
 		path = "src/platform2"
-		revision = "release-R39-6310.B-development"
+		revision = "release-R39-6310.B"
 		remote = "yetu" />
 
 	<project
