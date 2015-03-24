@@ -62,7 +62,7 @@
 
 	<project
 		name = "serial-zwave-updater.git"
-		path = "src/third_party/yetu-internal/zwave-updater"
+		path = "src/third_party/yetu-internal/serial-zwave-updater"
 		remote = "yetu"
 		revision = "master" />
 
