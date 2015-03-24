@@ -62,7 +62,19 @@
 
 	<project
 		name = "serial-zwave-updater.git"
-		path = "src/third-party/yetu-internal/zwave-updater"
+		path = "src/third_party/yetu-internal/serial-zwave-updater"
+		remote = "yetu"
+		revision = "master" />
+
+	<project
+		name = "gateway-setup-scripts.git"
+		path = "src/third_party/yetu-internal/gateway-setup-scripts"
+		remote = "yetu"
+		revision = "master" />
+
+	<project
+		name = "tv-auth-service.git"
+		path = "src/third_party/yetu-internal/tv-auth-service"
 		remote = "yetu"
 		revision = "master" />
 
