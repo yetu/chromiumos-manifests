@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote
+                name    = "yetu"
+                fetch   = "ssh://git@bitbucket.org/yetu" />
+
+        <remote
+                name    = "dereulenspiegel"
+                fetch   = "https://github.com/dereulenspiegel" />
+
+</manifest>

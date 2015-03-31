@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<include name="local_manifests/yetu-remotes.xml" />
+
+	<project
+                path    = "src/third_party/tableknife"
+                name    = "tableknife.git"
+                revision = "master"
+                remote  = "dereulenspiegel" />
+
+        <project
+                path    = "src/third_party/yetu-tools"
+                name    = "chromium-yetu-tools.git"
+                revision = "release-R39-6310.B"
+                remote  = "yetu" />
+
+	<project
+                path    = "src/third_party/yetu-overlay"
+                name    = "chromiumos-yetu-overlay.git"
+                revision = "release-R39-6310.B-development"
+                remote  = "yetu" />
+
+	<project
+                name = "chromiumos-setup-splash.git"
+                path = "src/third_party/yetu-internal/chromiumos-setup-splash"
+                remote = "yetu"
+                revision = "master" />
+
+        <project
+                name = "serial-zwave-updater.git"
+                path = "src/third_party/yetu-internal/serial-zwave-updater"
+                remote = "yetu"
+                revision = "master" />
+
+        <project
+                name = "gateway-setup-scripts.git"
+                path = "src/third_party/yetu-internal/gateway-setup-scripts"
+                remote = "yetu"
+                revision = "master" />
+
+        <project
+                name = "tv-auth-service.git"
+                path = "src/third_party/yetu-internal/tv-auth-service"
+                remote = "yetu"
+                revision = "master" />
+
+</manifest>
