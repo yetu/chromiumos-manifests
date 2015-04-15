@@ -4,6 +4,10 @@
                 name    = "yetu"
                 fetch   = "ssh://git@bitbucket.org/yetu" />
 
+	<remote
+		name	= "yetu-github"
+		fetch	= "ssh://git@github.com/yetu" />
+
         <remote
                 name    = "dereulenspiegel"
                 fetch   = "https://github.com/dereulenspiegel" />

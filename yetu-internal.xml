@@ -44,4 +44,10 @@
                 remote = "yetu"
                 revision = "master" />
 
+	<project 
+		name = "linux-pfla02.git"
+		path = "src/third_party/yetu-internal/linux-pfla02"
+		remote = "yetu-github"
+		revision = "pfla02-v3.18.5" />
+
 </manifest>
