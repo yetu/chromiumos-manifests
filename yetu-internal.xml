@@ -50,4 +50,10 @@
 		remote = "yetu-github"
 		revision = "pfla02-v3.18.5" />
 
+	<project
+		name = "update_payload_generator.git"
+		path = "src/third_party/yetu-internal/update_payload_generator"
+		remote = "yetu-github"
+		revision = "master" />
+
 </manifest>
