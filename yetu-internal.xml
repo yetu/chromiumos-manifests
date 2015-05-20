@@ -3,7 +3,7 @@
 	<include name="local_manifests/yetu-remotes.xml" />
 
 	<project
-                path    = "src/third_party/tableknife"
+                path    = "src/third_party/yetu-internal/tableknife"
                 name    = "tableknife.git"
                 revision = "master"
                 remote  = "dereulenspiegel" />
