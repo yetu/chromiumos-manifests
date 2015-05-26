@@ -2,7 +2,7 @@
 <manifest>
 	<remote
                 name    = "yetu"
-                fetch   = "ssh://git@bitbucket.org/yetu" />
+                fetch   = "ssh://git@github.com/yetu" />
 
 	<remote
 		name	= "yetu-github"
