@@ -56,4 +56,10 @@
 		remote = "yetu-github"
 		revision = "master" />
 
+	<project
+		name	= "imagespec.git"
+		path	= "src/third_party/yetu-internal/imagespec"
+		remote	= "yetu"
+		revision = "master" />
+
 </manifest>
