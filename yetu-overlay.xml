@@ -29,5 +29,11 @@
 		path = "src/platform2"
 		revision = "release-R39-6310.B-development"
 		remote = "yetu" />
+	<remove-project name="chromiumos/third_party/autotest" />
+	<project 
+		name = "chromiumos-autotest.git"
+		path = "src/third_party/autotest/files"
+		revision = "release-R39-6310.B-development"
+		remote = "yetu" />
 
 </manifest>
