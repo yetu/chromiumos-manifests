@@ -6,34 +6,35 @@
 	<project 
 		name	= "chromiumos-chromiumos-overlay.git"
 		path	= "src/third_party/chromiumos-overlay"
-		revision = "release-R39-6310.B-development"
+		revision = "38a2d27fd79278ac55fbb7c3ac3a38c8ececf06f"
 		remote	= "yetu" />
 
 	<remove-project name="chromiumos/overlays/board-overlays" />
 	<project
 		name = "chromiumos-overlays.git"
 		path = "src/overlays"
-		revision = "release-R39-6310.B-development"
+		revision = "222801b6dfcea961086a2565def5fde5feddaaa9"
 		remote = "yetu" />
 
 	<remove-project name="chromiumos/platform/crosutils" />
 	<project
 		name = "chromiumos-scripts.git"
 		path = "src/scripts"
-		revision = "release-R39-6310.B-development"
+		revision = "516c2f359dba608e6c612c73ad127dbb772a6a44"
 		remote = "yetu" />
 
 	<remove-project name="chromiumos/platform2" />
 	<project
 		name = "chromiumos-platform2.git"
 		path = "src/platform2"
-		revision = "release-R39-6310.B-development"
+		revision = "1f32e54d4fd1dbbcd9e179e04fe122799b0a8fc9"
 		remote = "yetu" />
+
 	<remove-project name="chromiumos/third_party/autotest" />
 	<project 
 		name = "chromiumos-autotest.git"
 		path = "src/third_party/autotest/files"
-		revision = "release-R39-6310.B-development"
+		revision = "c2ec61bdac8651d700f9c137b455e7d90ad0e3c3"
 		remote = "yetu" />
 
 </manifest>

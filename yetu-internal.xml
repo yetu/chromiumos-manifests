@@ -11,13 +11,13 @@
         <project
                 path    = "src/third_party/yetu-tools"
                 name    = "chromium-yetu-tools.git"
-                revision = "release-R39-6310.B"
+                revision = "f36f472c168108165fde459a8817325868834c0a"
                 remote  = "yetu" />
 
 	<project
                 path    = "src/third_party/yetu-overlay"
                 name    = "chromiumos-yetu-overlay.git"
-                revision = "release-R39-6310.B-development"
+                revision = "05a689ef0e231f2066f118e4690f7bfffd0d6f9c"
                 remote  = "yetu" />
 
 	<project
