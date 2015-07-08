@@ -1,39 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <manifest>
 	<include name="local_manifests/yetu-remotes.xml" />
 
 	<remove-project name="chromiumos/overlays/chromiumos-overlay" />
-	<project 
-		name	= "chromiumos-chromiumos-overlay.git"
-		path	= "src/third_party/chromiumos-overlay"
-		revision = "release-R39-6310.B-development"
-		remote	= "yetu" />
+	<project name="chromiumos-chromiumos-overlay.git" path="src/third_party/chromiumos-overlay" remote="yetu" revision="2670a5129938ed1e89a02650aeb041d7483c80f9" />
 
 	<remove-project name="chromiumos/overlays/board-overlays" />
-	<project
-		name = "chromiumos-overlays.git"
-		path = "src/overlays"
-		revision = "release-R39-6310.B-development"
-		remote = "yetu" />
+	<project name="chromiumos-overlays.git" path="src/overlays" remote="yetu" revision="222801b6dfcea961086a2565def5fde5feddaaa9" />
 
 	<remove-project name="chromiumos/platform/crosutils" />
-	<project
-		name = "chromiumos-scripts.git"
-		path = "src/scripts"
-		revision = "release-R39-6310.B-development"
-		remote = "yetu" />
+	<project name="chromiumos-scripts.git" path="src/scripts" remote="yetu" revision="516c2f359dba608e6c612c73ad127dbb772a6a44" />
 
 	<remove-project name="chromiumos/platform2" />
-	<project
-		name = "chromiumos-platform2.git"
-		path = "src/platform2"
-		revision = "release-R39-6310.B-development"
-		remote = "yetu" />
+	<project name="chromiumos-platform2.git" path="src/platform2" remote="yetu" revision="1f32e54d4fd1dbbcd9e179e04fe122799b0a8fc9" />
 	<remove-project name="chromiumos/third_party/autotest" />
-	<project 
-		name = "chromiumos-autotest.git"
-		path = "src/third_party/autotest/files"
-		revision = "release-R39-6310.B-development"
-		remote = "yetu" />
+	<project name="chromiumos-autotest.git" path="src/third_party/autotest/files" remote="yetu" revision="c2ec61bdac8651d700f9c137b455e7d90ad0e3c3" />
 
 </manifest>
