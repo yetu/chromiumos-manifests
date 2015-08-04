@@ -1,65 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <manifest>
 	<include name="local_manifests/yetu-remotes.xml" />
 
-	<project
-                path    = "src/third_party/yetu-internal/tableknife"
-                name    = "tableknife.git"
-                revision = "master"
-                remote  = "dereulenspiegel" />
+	<project name="tableknife.git" path="src/third_party/yetu-internal/tableknife" remote="dereulenspiegel" revision="aa33846d772e695b28a4c349400bda07ef621e18" />
 
-        <project
-                path    = "src/third_party/yetu-tools"
-                name    = "chromium-yetu-tools.git"
-                revision = "release-R39-6310.B"
-                remote  = "yetu" />
+        <project name="chromium-yetu-tools.git" path="src/third_party/yetu-tools" remote="yetu" revision="f36f472c168108165fde459a8817325868834c0a" />
 
-	<project
-                path    = "src/third_party/yetu-overlay"
-                name    = "chromiumos-yetu-overlay.git"
-                revision = "release-R39-6310.B-development"
-                remote  = "yetu" />
+	<project name="chromiumos-yetu-overlay.git" path="src/third_party/yetu-overlay" remote="yetu" revision="c1b09e94d71c6a0228a00bcd9767d5bc9bfe76e3" />
 
-	<project
-                name = "chromiumos-setup-splash.git"
-                path = "src/third_party/yetu-internal/chromiumos-setup-splash"
-                remote = "yetu"
-                revision = "master" />
+	<project name="chromiumos-setup-splash.git" path="src/third_party/yetu-internal/chromiumos-setup-splash" remote="yetu" revision="c6ebe3150c00aee6e7add63c4223fb3d3f11c3ce" />
 
-        <project
-                name = "serial-zwave-updater.git"
-                path = "src/third_party/yetu-internal/serial-zwave-updater"
-                remote = "yetu"
-                revision = "master" />
+        <project name="serial-zwave-updater.git" path="src/third_party/yetu-internal/serial-zwave-updater" remote="yetu" revision="438d3171bdd35471515b63f5f13e99989ad6724a" />
 
-        <project
-                name = "gateway-setup-scripts.git"
-                path = "src/third_party/yetu-internal/gateway-setup-scripts"
-                remote = "yetu"
-                revision = "master" />
+        <project name="gateway-setup-scripts.git" path="src/third_party/yetu-internal/gateway-setup-scripts" remote="yetu" revision="27f13e9e54ba5695a5bfd35e7a977c20328cabdf" />
 
-        <project
-                name = "tv-auth-service.git"
-                path = "src/third_party/yetu-internal/tv-auth-service"
-                remote = "yetu"
-                revision = "master" />
+        <project name="tv-auth-service.git" path="src/third_party/yetu-internal/tv-auth-service" remote="yetu" revision="678924b9ffc2a48b014cf2575433722b4d874096" />
 
-	<project 
-		name = "linux-pfla02.git"
-		path = "src/third_party/yetu-internal/linux-pfla02"
-		remote = "yetu-github"
-		revision = "pfla02-v3.18.5" />
+	<project name="linux-pfla02.git" path="src/third_party/yetu-internal/linux-pfla02" remote="yetu-github" revision="d41d69209d4f084b01239b2a3029db252c73bb35" />
 
-	<project
-		name = "update_payload_generator.git"
-		path = "src/third_party/yetu-internal/update_payload_generator"
-		remote = "yetu-github"
-		revision = "master" />
+	<project name="update_payload_generator.git" path="src/third_party/yetu-internal/update_payload_generator" remote="yetu-github" revision="79b10c1f4378af51e16b15504dcc045b2c643f75" />
 
-	<project
-		name	= "imagespec.git"
-		path	= "src/third_party/yetu-internal/imagespec"
-		remote	= "yetu"
-		revision = "master" />
+	<project name="imagespec.git" path="src/third_party/yetu-internal/imagespec" remote="yetu" revision="c8808a4e380d7ff423fc6f510120afa667f90d83" />
 
 </manifest>
